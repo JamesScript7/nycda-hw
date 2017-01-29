@@ -1,0 +1,111 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+}
+
+body {
+	font-family: helvetica, sans-serif;
+	color: #404040;
+	background-color: aliceblue;
+}
+
+header, h2 {
+	text-align: center;
+}
+
+div.container {
+	position: relative;
+	background-color: snow;
+	border: dashed lightsteelblue 1px;
+	margin: 30px 10px;
+	margin-bottom: 150px;
+	overflow: auto;
+}
+
+/* Links Links Links */
+
+div.container div.column-1 {
+	min-width: 250px;
+}
+
+ul.nav-bar li {
+	margin: 3px;
+	list-style-type: none;
+}
+
+ul.nav-bar li a {
+	text-decoration: none;
+	color: mediumseagreen;
+	padding: 5px;
+}
+
+ul.nav-bar li a:hover {
+	background-color: darkseagreen;
+	color: white;
+}
+
+ul.nav-bar li a:active {
+	color: darkolivegreen;
+}
+
+/* Columns 1 through 3 */
+
+div.column {
+	display: inline-block;
+	padding: 25px;
+	border: dotted paleturquoise 1px;
+	text-align: left;
+}
+
+div.container div.pg1-left {
+	position: absolute;
+	left: 0px;
+	width: 250px;
+}
+
+div.container div.pg1-right {
+	margin-left: 250px;
+	width: auto;
+}
+
+div.column-1 {
+	float: left;
+	width: 33%;
+}
+
+div.column-2 {
+	display: inline-block;
+	width: 34%;
+}
+
+div.column-3 {
+	float: right;
+	width: 33%;
+}
+
+/* Social Media Buttons */
+
+div.social-media {
+	position: fixed;
+	top: 5px;
+	left: 5px;
+}
+
+div.social-media a img {
+	width: 35px;
+	height: 35px;
+}
+
+div.social-media a {
+	text-decoration: none;
+}
+
+/* For the Image Gallery */
+
+div.column div img {
+	display: inline-block;
+	float: left;
+	width: 250px;
+	padding: 5px;
+}

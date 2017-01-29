@@ -1,0 +1,66 @@
+* {
+	font-family: tahoma, helvetica, sans-serif;
+}
+
+body {
+	margin: 0;
+	font-size: 12pt;
+}
+
+h1 {
+	color: #e62e00;
+}
+
+h2 {
+	padding: 20px;
+}
+
+div img.left {
+	float: left;
+	margin: 10px; 
+}
+
+h1.heading {
+	font-size: 3em;
+	text-align: center;
+	font-style: italic;
+	background-color: #0039e6;
+	color: white;
+}
+
+div#jumbo {
+}
+
+div#jumbo img.main-photo {
+	width: 100%;
+	max-width: 1500px;
+	display: block;
+	margin: 0 auto;
+}
+
+div.content {
+}
+
+div.box-color {
+	padding: 30px;
+	background-color: #1a8cff;
+	font-size: 2em;
+	color: white;
+}
+
+div.box-white {
+	padding: 30px;
+	background-color: #e6ffff;
+}
+
+div.bottom {
+	text-align: center;
+	height: 300px;
+	vertical-align: middle;
+	background-color: #1a8cff;
+}
+
+div.bottom h1.white-text {
+	color: white;
+	padding-top: 30px;
+}
